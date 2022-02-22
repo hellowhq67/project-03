@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+ --color1:#222;
+ --color2:#465b52;
+ --color3:#1a1a1a;
+ --color4: #088178;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    list-style: none;
+}
+body{
+    
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--color1);
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: var(--color1);
+}
+h4{
+    font-size: 20px;
+    color: var(--color1);
+}
+h6{
+    font-weight: 700;
+    font-size:16px;
+
+}
+p{
+    font-size: 16px;
+    color: var(--color2);
+    margin: 15px 0 20px 0;
+}
+#page-header{
+    background-image: url(./img/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+#page-header h2,
+#page-header p{
+color: #fff;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+     background-color: #088178;
+     padding: 15px 20px;
+     border-radius: 4px;
+     color: #fff;
+     font-weight: 600;
+
+
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#prodetais{
+    display: flex;
+    margin-top: 20px;
+}
+#prodetais  .singel-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetais  .singel-pro-details h4{
+    font-size: 26px;
+
+}
+#prodetais  .singel-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetais  .singel-pro-details input{
+    width: 50px;
+    height: 16px;
+    height: 47px;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: center;
+}
+#prodetais .singel-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.pro-btn{
+    background:var( --color4);
+    border:none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .3s ease;
+    
+}
+.pro-btn:hover{
+    transform: translateY(-5px);
+   opacity: 0.5;
+    
+}
+#prodetais .singel-pro-details span{
+    line-height: 25px;
+}
